@@ -1,4 +1,4 @@
-import Header from "~/Component/Layout/DefaultLayout/Header";
+import Header from "~/Component/Layout/Components/Header";
 
 function Upload() {
   return (

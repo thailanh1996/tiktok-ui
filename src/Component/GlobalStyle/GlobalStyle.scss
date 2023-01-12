@@ -4,6 +4,17 @@
 :root {
   --primary: rgba(254, 44, 85, 1);
   --secondary: rgba(22, 24, 35, 1);
+
+  // DefaultLayout
+  --default-layout-header-height: 60px;
+  --default-layout-width: 1150px;
+
+  // Font-size
+  --default-font-size: 1.6rem;
+
+  // Color
+  --black: #000;
+  --text-color: #333;
 }
 
 * {
@@ -11,10 +22,24 @@
 }
 
 html {
+  font-size: 62.5%;
 }
 
 body {
-  background-color: #815b5b;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+}
+
+button,
+input,
+[tabindex] {
+  border: none;
+  outline: none;
+}
+
+a[href] {
+  color: var(--text-color);
+  text-decoration: none;
 }
